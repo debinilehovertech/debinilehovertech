@@ -1,3 +1,10 @@
+#about,
+#services,
+#industries,
+#projects,
+#contact {
+    scroll-margin-top: 90px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -783,7 +790,7 @@ a {
 
 @keyframes heroSlider {
 
-  /* Current home page background */
+  /* First image */
   0%, 33% {
     background:
       linear-gradient(
@@ -797,7 +804,7 @@ a {
     background-position: center;
   }
 
-  /* NDT image */
+  /* Second image */
   34%, 66% {
     background:
       linear-gradient(
@@ -811,7 +818,7 @@ a {
     background-position: center;
   }
 
-  /* New pipeline image */
+  /* Third image */
   67%, 100% {
     background:
       linear-gradient(
@@ -820,7 +827,7 @@ a {
         rgba(8,27,49,0.88) 52%,
         rgba(8,27,49,0.62) 100%
       ),
-      url("images/ndt-hero.jpg");
+      url("images/marine.jpg");
     background-size: cover;
     background-position: center;
   }
