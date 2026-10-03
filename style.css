@@ -447,6 +447,14 @@ a {
   font-size: 11px;
   margin-top: 18px;
 }
+.service-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
 
 /* Industries */
 .industry-grid {
