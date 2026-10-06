@@ -650,21 +650,23 @@ a {
 
 .floating-whatsapp {
   position: fixed;
-  right: 22px;
-  bottom: 22px;
-  width: 52px;
-  height: 52px;
+  right: 20px;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--red);
-  color: white;
+  background: #25D366;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 13px;
-  font-weight: 800;
   box-shadow: 0 8px 25px rgba(0,0,0,.22);
   z-index: 999;
+  transition: transform .2s ease;
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.05);
 }
 
 /* Mobile */
