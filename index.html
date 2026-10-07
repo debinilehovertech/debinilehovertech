@@ -31,6 +31,7 @@
         <a href="#services">Services</a>
         <a href="#industries">Industries</a>
         <a href="#projects">Projects</a>
+        <a href="#quote" class="quote-nav">Get a Free Quote</a>
         <a href="#contact" class="nav-cta">Contact Us</a>
       </nav>
     </div>
@@ -49,9 +50,15 @@
             industrial operations.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#services">Explore Our Services</a>
-            <a class="btn btn-outline" href="#contact">Contact Us</a>
-          </div>
+          <a class="btn btn-primary" href="#quote">
+             Get a Free Quote
+           </a>
+
+           <a class="btn btn-outline" href="#services">
+              Explore Our Services
+            </a>
+<a class="btn btn-outline" href="#contact">Contact Us</a>
+</div>
         </div>
 
         <div class="hero-badge">
@@ -363,6 +370,228 @@ alt="Equipment Rental Project">
     </div>
 
   </div>
+<section class="section quote-section" id="quote">
+  <div class="container">
+
+    <div class="section-heading quote-heading">
+      <p class="kicker">REQUEST A QUOTE</p>
+      <h2>Get a Free Quote</h2>
+      <p>
+        Tell us about your project and our team will review your requirements
+        and get back to you with the next steps.
+      </p>
+    </div>
+
+    <div class="quote-layout">
+
+      <div class="quote-info">
+        <div class="quote-icon">DHS</div>
+
+        <h3>Let's discuss your project</h3>
+
+        <p>
+          Whether you need NDT inspection, drone inspection, surveying,
+          QA/QC support, drone services, training or equipment rental,
+          send us your requirements.
+        </p>
+
+        <div class="quote-points">
+          <div>
+            <strong>01</strong>
+            <span>Tell us what service you require.</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Provide your project location and scope.</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span>We review your request and contact you.</span>
+          </div>
+        </div>
+
+        <div class="quote-direct">
+          <span>Prefer WhatsApp?</span>
+          <a href="https://wa.me/2347059577074" target="_blank" rel="noopener">
+            Chat with us on WhatsApp →
+          </a>
+        </div>
+      </div>
+
+
+      <form
+  class="quote-form"
+  id="quoteForm"
+  action="https://formspree.io/f/meaeaolk"
+  method="POST"
+>
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="quoteName">Full Name *</label>
+            <input
+              type="text"
+              id="quoteName"
+              name="name"
+              placeholder="Your full name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCompany">Company Name</label>
+            <input
+              type="text"
+              id="quoteCompany"
+              name="company"
+              placeholder="Company name"
+            >
+          </div>
+
+        </div>
+
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="quotePhone">Phone Number *</label>
+            <input
+              type="tel"
+              id="quotePhone"
+              name="phone"
+              placeholder="+234..."
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="quoteEmail">Email Address *</label>
+            <input
+              type="email"
+              id="quoteEmail"
+              name="email"
+              placeholder="your@email.com"
+              required
+            >
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="quoteService">Service Required *</label>
+
+          <select id="quoteService" name="service" required>
+
+            <option value="">Select a service</option>
+
+            <option value="NDT Inspection">
+              NDT Inspection
+            </option>
+
+            <option value="Drone Inspection">
+              Drone Inspection
+            </option>
+
+            <option value="Survey & Mapping">
+              Survey & Mapping
+            </option>
+
+            <option value="QA/QC Services">
+              QA/QC Services
+            </option>
+
+            <option value="Drone Training">
+              Drone Training
+            </option>
+
+            <option value="Equipment Rental">
+              Equipment Rental
+            </option>
+
+            <option value="Other">
+              Other
+            </option>
+
+          </select>
+        </div>
+
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="quoteLocation">Project Location</label>
+
+            <input
+              type="text"
+              id="quoteLocation"
+              name="location"
+              placeholder="e.g. Warri, Delta State"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="quoteDate">Preferred Date</label>
+
+            <input
+              type="date"
+              id="quoteDate"
+              name="date"
+            >
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="quoteDetails">Project Details *</label>
+
+          <textarea
+            id="quoteDetails"
+            name="details"
+            rows="6"
+            placeholder="Please describe the work you require, equipment/asset involved, quantity, scope or any other useful information..."
+            required
+          ></textarea>
+        </div>
+
+
+        <div class="form-group">
+          <label for="quoteFile">
+            Attach File (Optional)
+          </label>
+
+          <input
+            type="file"
+            id="quoteFile"
+            name="attachment"
+            accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"
+          >
+
+          <small>
+            You may attach drawings, inspection information, photographs,
+            specifications or other relevant documents.
+          </small>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary quote-submit">
+          Request My Free Quote
+        </button>
+
+        <p class="form-note">
+          By submitting this request, you agree that Debinile Hovertech
+          Services Limited may contact you regarding your enquiry.
+        </p>
+
+      </form>
+
+    </div>
+  </div>
+</section>
 </section>
     <section class="section section-light" id="contact">
       <div class="container contact-layout">
