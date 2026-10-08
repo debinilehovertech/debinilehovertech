@@ -394,7 +394,31 @@ a {
   color: var(--red);
   font-weight: 800;
 }
+/* Mission & Vision */
 
+.mission-vision {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.mv-card {
+  background: var(--light);
+  padding: 30px;
+  border-top: 4px solid var(--red);
+  box-shadow: var(--shadow);
+}
+
+.mv-card h3 {
+  color: var(--navy);
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.mv-card p {
+  color: var(--muted);
+}
 /* Service cards */
 .cards {
   display: grid;
@@ -792,6 +816,10 @@ a {
   .trust-grid > div:last-child {
     border-bottom: 0;
   }
+
+.mission-vision {
+  grid-template-columns: 1fr;
+}
 
   .about-panel {
     padding: 28px;
